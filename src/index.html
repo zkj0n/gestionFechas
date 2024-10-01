@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Contador</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body class="bg-black text-white">
+    <header class="text-center">
+      <h1>Fecha l&iacute;mite: <span id="limite">NaN</span></h1>
+    </header>
+
+    <main>
+      <article class="d-flex justify-content-center" id="contador">
+        <div class="m-3 p-1">
+          <h3 class="border-bottom border-white">Meses</h3>
+          <p class="text-center text-success" id="mes">x</p>
+        </div>
+        <div class="m-3 p-1">
+          <h3 class="border-bottom border-white">D&iacute;as</h3>
+          <p class="text-center text-success" id="dia">x</p>
+        </div>
+        <div class="m-3 p-1">
+          <h3 class="border-bottom border-white">Horas</h3>
+          <p class="text-center text-success" id="hora">x</p>
+        </div>
+        <div class="m-3 p-1">
+          <h3 class="border-bottom border-white">Minutos</h3>
+          <p class="text-center text-success" id="minuto">x</p>
+        </div>
+        <div class="m-3 p-1">
+          <h3 class="border-bottom border-white">Segundos</h3>
+          <p class="text-center text-success" id="segundo">x</p>
+        </div>
+      </article>
+
+      <article class="d-flex align-items-center flex-column">
+        <input
+          type="text"
+          placeholder="Introduce una fecha (mm-dd-yyyy hh:mm)"
+          class="form-control w-25"
+          id="fechaInput"
+        />
+        <button type="button" class="m-3 btn btn-success" id="actualizar">
+          Actualizar
+        </button>
+      </article>
+    </main>
+
+    <script src="script.js"></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
